@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: logstash-service   # Name of the Service
+spec:
+  selector:
+    app: logstash          # Label selector to match the pods belonging to the Logstash Deployment
+  ports:
+  - protocol: TCP          # Protocol used for communication
+    port: 5044             # Port on the Service
+    targetPort: 5044       # Port on the pods to which traffic should be forwarded
