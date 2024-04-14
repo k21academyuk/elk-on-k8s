@@ -13,6 +13,7 @@ kubectl apply -f elasticsearch-svc.yaml
     <li>
         Create a Logstash deployment:
         <pre><code>kubectl apply -f logstash-deployment.yaml
+            kubectl apply -f logstash-svc.yaml
         </code></pre>
     </li>
     <li>
