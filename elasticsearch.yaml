@@ -70,7 +70,7 @@ spec:
         app: elasticsearch
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: managed-nfs-storage
+      storageClassName: managed-nfs-storage  #Edit the name with your StorageClass
       resources:
         requests:
           storage: 4Gi
