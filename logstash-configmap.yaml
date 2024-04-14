@@ -26,7 +26,5 @@ data:
     output {
       elasticsearch {
         hosts => ["http://elasticsearch:9200"]
-        user => "optional-username"
-        password => "optional-password"
       }
     }
