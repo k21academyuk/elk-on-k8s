@@ -6,8 +6,8 @@ kubectl apply -f elasticsearch-svc.yaml
         </code></pre>
     </li>
     <li>
-        Create a ConfigMap using <code>logstash-config.yaml</code>:
-        <pre><code>kubectl apply -f logstash-config.yaml
+        Create a ConfigMap using <code>logstash-configmap.yaml</code>:
+        <pre><code>kubectl apply -f logstash-configmap.yaml
         </code></pre>
     </li>
     <li>
